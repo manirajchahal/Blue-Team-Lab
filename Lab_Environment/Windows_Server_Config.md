@@ -24,7 +24,7 @@ New-ADOrganizationalUnit -Name "Management"
 ```
 
 
-### 4. Configure GPO Settings
+### 3. Configure GPO Settings
 
 #### Sales & Management GPO 
 - Enforce Password History (7 passwords)
@@ -41,7 +41,7 @@ I also enforced auditing policies aswell
 
 I played around with a few more policies but none are relevent to the security aspects of this project.
 
-#### 5. Setting up File Shares 
+#### 4. Setting up File Shares 
 
 I created a file called ```Project_Files``` and shared it over the network and added the permissions as follows:
 
